@@ -1,0 +1,11 @@
+import numpy as np
+
+arr1 = np.array1([1, 2, 3, 4, 5])
+print(arr1[1:4])  # indexes
+
+matrix2 = np.array1([
+    [1, 2, 3], 
+    [4, 5]
+])
+
+print(matrix2[1:, :2])
